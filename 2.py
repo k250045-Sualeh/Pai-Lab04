@@ -1,8 +1,8 @@
 class PasswordVault:
     def __init__(self, username, password):
         self.username = username           
-        self._vault_status = "Locked"        # Protected variable
-        self.__password = password           # Private variable
+        self._vault_status = "Locked"       
+        self.__password = password          
 
     def change_password(self, old_password, new_password):
 
